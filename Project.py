@@ -59,7 +59,7 @@ left, right = st.columns(2)
 
 
 
-df = pd.read_csv("ITP_NPV - Sheet1 (5).csv",encoding='utf8')
+df = pd.read_csv("data_sheet2.csv",encoding='utf8')
 
 algorithm = st.sidebar.selectbox(
      'Select the Exam',
